@@ -1,0 +1,141 @@
+@font-face{
+	font-family: "shrimp-fried-rice";
+	src : url("Polices/shrimp-fried-rice-no1/ShrimpFriedRiceNo1.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "farsan";
+	src: url("Polices/farsan/Farsan-Regular.ttf");
+}
+
+html, body {
+	margin: 0;
+	height: 100%; 
+	overflow: hidden
+}
+
+
+ nav{ 
+	height: 45px;
+	border-bottom: solid 1px rgba(100, 100, 100,.8);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	margin-right: 10px;
+	background: linear-gradient(rgba(220, 155, 110,1), rgba(240, 214, 197,0.5) 100%);
+  }
+
+  #Hervault_header{
+	display: block;
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 2px 3px black, 0 0 1em rgb(222,222,222), 0 0 0.3em grey;
+    font-family: "shrimp-fried-rice";
+    font-size: 200%;
+ }
+
+.menu_header
+ {
+ 	display: inline;
+ 	list-style-type: none;
+ 	margin: 20px;
+ 	font-family: "shrimp-fried-rice";
+ 	font-size: 1.4em;
+ }
+
+footer{
+	height: 40px;
+	border-top: solid 1px rgba(254, 225, 211);
+	background: rgba(208, 119, 90);
+	width: 47.6%;
+	z-index: 1;
+	position: absolute;
+	bottom: 40px;
+	bottom: 0;
+	}
+
+ .footer{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	font-family: farsan;
+
+}
+
+.menu_footer > a {
+	text-decoration: none; 
+	color: white
+	margin-right: 40px;
+	margin-left: 40px;
+}
+ 
+a{
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	margin: 0;
+	height: 100%;
+	background: rgb(255, 246, 235);
+}
+
+
+main{
+	width: 60%;
+	min-width: 600px;
+	border: solid 2px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	margin-top: 30px;
+	background-color: rgba(240, 214, 197);
+	border-radius: 2px;
+}  
+
+h1{
+	text-align: center;
+	font-family: georgia;
+	font-size: 200%;
+	font-weight: bold;
+	text-align: right;
+	margin-left: 40%;
+} 
+
+
+h2{
+	text-align: center;
+	font-family: georgia;
+	font-size: 150%;
+}
+
+a:hover{
+	opacity: 0.7;
+}
+
+p{
+	font-family: farsan;
+	font-size: 120%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.p_entete{
+	text-align: right;
+	margin-right: 35%;
+}
+
+.entete{
+	background: url(cover_entete.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+}
