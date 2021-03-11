@@ -216,11 +216,30 @@ max-height: 350px;
 	margin-right: auto;
 }
 
+.img_projet6{
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 h1{
 	font-size: 1.6em;
 	color: rgb(5, 58, 78);
 	text-align: center;
 	font-style: bold;
+}
+
+#non_digit{
+	font-size: 3.8em;
+	color: white;
+	text-align: center;
+	width: 100%;
+	background-color: rgb(2, 60, 84);
+	font-family:"shrimp-fried-rice",georgia;
+	text-shadow: 5px 5px 4px black;
+	right: 0;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
 }
 
 .redaction_article{
