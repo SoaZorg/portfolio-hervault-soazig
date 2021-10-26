@@ -8,6 +8,12 @@
 	src: url("Polices/farsan/Farsan-Regular.ttf");
 }
 
+@font-face{
+	font-family: "Lato";
+	src: url("Polices/Lato/Lato-Regular.ttf");
+}
+
+
 body {
 	width: 100%;
 	margin: 0;
@@ -56,7 +62,6 @@ main{
  	margin: 20px;
  	font-family: "shrimp-fried-rice";
  	font-size: 1.4em;
- 	font-color:;
  }
 
 .gradient{
@@ -74,24 +79,37 @@ main{
 	height:50em;
 	text-align: center;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
-.Hervault_main
-{ 
-	background: rgba(255, 255, 255,0.5);
-	margin: auto;
+.texte_accueil
+{
+background: rgba(255, 255, 255,0.5);
 	border-right: solid 5px rgb(2, 60, 84);
 	border-left: solid 5px rgb(2, 60, 84);
 	border-bottom: solid 1px rgb(2, 60, 84);
 	border-top: solid 1px rgb(2, 60, 84);
-	height: 25%;
-	font-size: 710%;
- 	border-radius: 5px;
+	border-radius: 5px;
  	width: 45%;
  	line-height: 180%;
+ 	padding: 25px;
+}
+
+.Hervault_main
+{ 
+	height: 25%;
+	font-size: 710%;
  	font-family: "shrimp-fried-rice", "arial black";
  }
+
+ .description_main
+ {
+	font-size: 180%;
+ 	font-family: "Lato",georgia;
+ }
+
 
  footer{
 	height: 2em;
@@ -227,6 +245,21 @@ h1{
 	color: rgb(5, 58, 78);
 	text-align: center;
 	font-style: bold;
+	font-family: "farsan",georgia;
+}
+
+h2{
+	font-size: 3em;
+	color: white;
+	text-align: center;
+	width: 100%;
+	background-color: rgb(2, 60, 84);
+	font-family:"shrimp-fried-rice",georgia;
+	text-shadow: 5px 5px 4px black;
+	right: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-right: 0;
 }
 
 #non_digit{
@@ -246,14 +279,13 @@ h1{
 .redaction_article{
 	margin: 15px;
 	font-size: 1.3em;
-	font-family: "farsan",georgia;
+	font-family: "Lato",georgia;
 	width: 40%;
-	margin-top:10%;
 }
 
 a{
 	text-decoration: none;
-	color: rgb(2, 60, 84)
+	color: rgb(255, 127, 52);
 }
 a:hover{
 	color: rgb(1, 113, 115);
@@ -273,3 +305,12 @@ p{
 .illustration > a :hover {
 	opacity: 0.5;
 }
+
+.menu_header > a{ 
+	color: rgba(2, 60, 84);
+	font-weight: bold;
+ }
+
+.menu_header > a:hover { 
+	color: rgb(255, 127, 52);
+ }
